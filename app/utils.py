@@ -33,11 +33,6 @@
 #     except Exception as e:
 #         logging.error(f"Error cleaning up folders: {e}")
 
-
-
-
-
-
 import os
 import shutil
 import logging
