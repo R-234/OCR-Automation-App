@@ -76,4 +76,4 @@ def crop_id_region(image, x, y, w, h):
         return cropped_image
     except Exception as e:
         logging.error(f"Error cropping image: {e}")
-        return None
+        return None 
