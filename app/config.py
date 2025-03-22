@@ -17,3 +17,4 @@ ZIP_FAILED = os.path.join(BASE_DIR, "data", "failed_results.zip")
 # Ensure directories exist
 for folder in [IMAGE_FOLDER, OUTPUT_FOLDER, FAILED_FOLDER, DEBUG_FOLDER]:
     os.makedirs(folder, exist_ok=True)
+

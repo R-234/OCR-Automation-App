@@ -21,3 +21,4 @@ def rename_image(image, extracted_number, output_folder):
     except Exception as e:
         logging.error(f"Error renaming image: {e}")
         return None
+    
